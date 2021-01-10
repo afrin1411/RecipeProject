@@ -1,0 +1,20 @@
+
+<app-header (navBtnClicked)="onNavBtnClicked($event)"></app-header>
+<div class="row">
+    <!-- <div class="col-md-4 col-sm-4">
+        <app-shopping></app-shopping>
+    </div>
+    <div class="col-md-1 col-sm-1"></div>
+    <div class="col-md-4 col-sm-4">
+        <app-recipies></app-recipies>
+    </div> -->
+
+    <div class="col-md-10 col-sm-10">
+        
+        <!-- <app-shopping *ngIf="showPage==='ShoppingPage'"></app-shopping>
+        <app-recipies *ngIf="showPage==='RecipiePage'"></app-recipies> -->
+
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
